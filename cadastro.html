@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastre-se</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="conteudo.html">Conteúdos de Matemática</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" 
+    aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Página Inicial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="conteudo.html">Conteúdos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cadastro.html">Cadastre-se</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container mt-5">
+    <section>
+      <h2>Formulário de Avaliação</h2>
+      <form action="https://formsubmit.co/bellettituan@gmail.com" method="POST">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+        </div>
+        <div class="form-group">
+          <label for="avaliacao">Avaliação:</label>
+          <select class="form-control" id="avaliacao">
+            <option selected disabled>Selecione uma opção</option>
+            <option value="excelente">Excelente</option>
+            <option value="bom">Bom</option>
+            <option value="regular">Regular</option>
+            <option value="ruim">Ruim</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="comentario">Comentário:</label>
+          <textarea class="form-control" id="comentario" rows="3" placeholder="Deixe seu comentário"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" id="botAval">Enviar Avaliação!</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>Site do Tuan 2023 &copy;</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

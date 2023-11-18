@@ -1,0 +1,62 @@
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  }
+  
+  footer {
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    main {
+      text-align: left;
+    }
+  }
+
+  .form-control{
+    border:double 5px #7c7a7a;
+    border-radius: 20px;
+  }
+
+  #botAval{
+    background-color: rgb(15, 219, 219);
+  }
+
+  .form-control:focus {
+    border-radius: 20px;
+  border: 10px double #000000; /* Adicione uma borda personalizada quando o input estiver em foco */
+  outline: none; /* Remova o contorno padrão do navegador */
+}
+
+#avaliacao:focus {
+    border-radius: 20px;
+    border: 10px double #000000; /* Adicione uma borda personalizada quando o input estiver em foco */
+    outline: none; /* Remova o contorno padrão do navegador */
+  }
+
+  .espacamento{
+    margin-bottom: 50px;
+  }
+
+  
